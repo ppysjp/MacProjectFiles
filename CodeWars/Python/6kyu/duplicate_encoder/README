@@ -1,0 +1,24 @@
+##################################################
+HOW TO WRITE TESTS
+##################################################
+
+First you must make a few decisions:
+    
+    1) What do you want to test?
+    2) Are you writing a unit test or an integration test? 
+
+Then the structure of the test should follow this workflow: 
+
+    1) Create your inputs   (ARRANGE)   
+    2) Execute the code being tested, capturing the output (ACT) 
+    3) Compare the expected output with the expected result (ASSERT)
+
+For this application we are going to test sum(). Here's a list of example 
+behaviours we could test.
+
+    Can it sum a list of whole numbers (integers)?
+    Can it sum a tuple or set?
+    Can it sum a list of floats?
+    What happens if you pass a bad value like a single integer or a string? 
+    What happens when one of the values is negative? 
+

@@ -1,0 +1,4 @@
+hello there 
+my name is sam
+I am entering text from the command line directly 
+

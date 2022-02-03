@@ -1,0 +1,25 @@
+# To set up a more complext test env: https://realpython.com/python-testing/
+#!/bin/bash
+
+mkdir $1
+
+echo "Directory for $1 created"
+
+mkdir "./$1/$1Solution"
+
+echo "Solution Directories created"
+
+touch "./$1/$1Solution/__init__.py"
+touch "./$1/test$1.py"
+
+echo "Test Environment Created as you can see:"
+
+cp -r "/Users/samuelpalmer/Project/RealPython/PythonUnitTest/Article/ProjectExample/" "./$1/"
+
+cat ./$1/my_sum/__init__.py > ./$1/$1Solution/__init__.py
+cat ./$1/test_example.py > ./$1/test$1.py
+
+rm -r ./$1/my_sum/
+rm ./$1/test_example.py 
+
+ls -Rl $1

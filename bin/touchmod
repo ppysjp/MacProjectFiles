@@ -1,0 +1,9 @@
+#!/bin/bash
+
+until [ -z "$1" ]
+do
+  touch $1
+  chmod u+rx $1
+  echo "File $1 created and mode changed to u+rx"
+  shift
+done
