@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/samuelpalmer/.tmux'
+let g:netrw_dirhist_7='/Users/samuelpalmer/.tmux/plugins'
+let g:netrw_dirhist_6='/Users/samuelpalmer/.tmux/plugins/tpm'
+let g:netrw_dirhist_5='/Users/samuelpalmer/.tmux/plugins'
+let g:netrw_dirhist_4='/Users/samuelpalmer/.tmux'
+let g:netrw_dirhist_3='/Users/samuelpalmer/Project/SICP'
+let g:netrw_dirhist_2='/Users/samuelpalmer/Project/SICP/Chapter2'
+let g:netrw_dirhist_1='/Users/samuelpalmer/Project/SICP/Chapter1'
+let g:netrw_dirhist_0='/Users/samuelpalmer/Project/SICP/Chapter2'
+let g:netrw_dirhist_9='/Users/samuelpalmer/Project/SICP'
